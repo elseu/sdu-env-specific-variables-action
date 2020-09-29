@@ -5,7 +5,7 @@ branding:
   icon: "terminal"
   color: "#EE3324"
 inputs:
-  envrioment:
+  envrioment_name:
     description: Envrioment name
     required: true
   mode:

@@ -4,10 +4,10 @@
 
 #### Action options
 
-| Prop           | description                                                                                                                                         |
-| -------------- | --------------------------------------------------------------------- |
-| environment\*  | Environment name                                                      |
-| mode\*         | options: env / output set as output or set it as global env variable  |
+| Prop                | description                                                                                                                                         |
+| ------------------- | --------------------------------------------------------------------- |
+| environment_name\*  | Environment name                                                      |
+| mode\*              | options: env / output set as output or set it as global env variable  |
 \* = required
 
 to extract the branch/tag name you can use the `elseu/sdu-env-specific-variables-action` action.
