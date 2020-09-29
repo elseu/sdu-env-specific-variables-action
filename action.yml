@@ -1,0 +1,16 @@
+name: Env specefic variables actoin
+description: Make it easy to create specefic envrioment related variables
+author: elseu
+branding:
+  icon: "terminal"
+  color: "#EE3324"
+inputs:
+  envrioment:
+    description: Envrioment name
+    required: true
+  mode:
+    description: Mode
+    required: true
+runs:
+  using: docker
+  image: Dockerfile
