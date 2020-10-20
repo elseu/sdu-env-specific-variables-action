@@ -20,7 +20,7 @@ jobs:
       - uses: elseu/sdu-env-specific-variables-action@v1
         with:
           mode: env
-          envrioment_name: release
+          environment_name: release
         env:
           DEFAULT_DATABASE_URL: "psql://login:test@localhost"
           PRODUCTION_DATABASE_URL: "psql://login:test@localhost"
