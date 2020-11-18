@@ -18,7 +18,7 @@ if [ ! -z $INPUT_ENVIRONMENT_NAME ]; then
     override=$(echo ${override//default'_'/})
     echo 'becomes variable' $override
     if [ $INPUT_MODE = "env" ]; then
-      echo "::set-env name=${override}::${!name}"
+      echo "${override}=${!name}" >> $GITHUB_ENV
     fi
     if [ $INPUT_MODE = "output" ]; then
       echo "::set-output name=${override}::${!name}"
