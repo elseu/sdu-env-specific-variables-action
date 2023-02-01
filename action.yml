@@ -1,5 +1,5 @@
 name: Env specific variables action
-description: Make it easy to create specific enviroment related variables
+description: Make it easy to create specific environment related variables
 author: elseu
 branding:
   icon: "terminal"
