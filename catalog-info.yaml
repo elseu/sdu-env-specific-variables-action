@@ -1,0 +1,16 @@
+# nonk8s
+apiVersion: backstage.io/v1beta1
+kind: Component
+metadata:
+  name: sdu-env-specific-variables-action
+  description: "Github action that helps set environment specific variables."
+  annotations:
+    github.com/project-slug: elseu/sdu-env-specific-variables-action
+    backstage.io/source-location: url:https://github.com/elseu/sdu-env-specific-variables-action/
+  tags:
+    - github-actions
+    - shell
+spec:
+  type: workflow
+  owner: team-devops
+  lifecycle: development-only
